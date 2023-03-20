@@ -1,0 +1,47 @@
+{
+    "primary": {
+        "lighter": "#E6E8F1",
+        "light": "#8B97C0",
+        "DEFAULT": "#001878 ",
+        "dark": "#021041",
+        "darkest": "#010C32"
+    },
+    "logo": {
+        "DEFAULT": "#001878 "
+    },
+    "gray": {
+        "100": "#EEEEEE",
+        "200": "#EDEDED",
+        "lighterest": "#F5F5F5",
+        "lighter": "#FAFAFA",
+        "light": "#E9E9E9",
+        "DEFAULT": "#D9D9D9",
+        "dark": "#B6B6B6",
+        "darker": "#808080"
+    },
+    "black": {
+        "DEFAULT": "#333333",
+        "dark": "#353535"
+    },
+    "danger": {
+        "DEFAULT": "#FF5252"
+    },
+    "success": {
+        "DEFAULT": "#4CAF50"
+    },
+    "pendiente": "#FF000090",
+    "asignado": "#FF770090",
+    "proceso": "#FFFF0090",
+    "finalizado": "#00D00090",
+    "cerrado": "#2C2C2C90",
+    "secondary": {
+        "lighter": "#FAC6A4",
+        "light": "#F58C47",
+        "DEFAULT": "#F57500",
+        "dark": "#AA5217",
+        "darkest": "#944714"
+    },
+    "tertiary": {
+        "DEFAULT": "#E95C17"
+    }
+}

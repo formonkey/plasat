@@ -1,0 +1,101 @@
+{
+    "name": "plannsat-fe",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fullcalendar/core": "^5.11.2",
+        "@fullcalendar/daygrid": "^5.11.2",
+        "@fullcalendar/interaction": "^5.11.2",
+        "@fullcalendar/react": "^5.11.2",
+        "@fullcalendar/timegrid": "^5.11.2",
+        "@headlessui/react": "^1.6.6",
+        "@heroicons/react": "^1.0.6",
+        "@tailwindcss/forms": "^0.5.2",
+        "@tanstack/react-query": "^4.0.10",
+        "@tanstack/react-query-devtools": "^4.0.10",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@themesberg/tailwind-datepicker": "^1.1.0",
+        "@types/faker": "^6.6.9",
+        "@types/jest": "^27.5.2",
+        "@types/js-cookie": "^3.0.2",
+        "@types/node": "^16.11.45",
+        "@types/react": "^18.0.15",
+        "@types/react-color": "^3.0.6",
+        "@types/react-datepicker": "^4.4.2",
+        "@types/react-dom": "^18.0.6",
+        "@types/react-signature-canvas": "^1.0.2",
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.27.2",
+        "chart.js": "^3.9.1",
+        "date-fns": "^2.29.1",
+        "dayjs": "^1.11.4",
+        "express": "^4.18.1",
+        "faker": "^6.6.6",
+        "file-saver": "^2.0.5",
+        "flowbite": "^1.5.1",
+        "flowbite-datepicker": "^1.2.2",
+        "flowbite-react": "^0.1.3",
+        "formik": "^2.2.9",
+        "framer-motion": "^6.5.1",
+        "highcharts": "^10.2.1",
+        "highcharts-react-official": "^3.1.0",
+        "i18next": "^21.8.14",
+        "i18next-browser-languagedetector": "^6.1.4",
+        "js-cookie": "^3.0.1",
+        "jwt-decode": "^3.1.2",
+        "lodash": "^4.17.21",
+        "postcss": "^8.4.14",
+        "prettier": "^2.7.1",
+        "react": "^18.2.0",
+        "react-chartjs-2": "^4.3.1",
+        "react-color": "^2.19.3",
+        "react-datepicker": "^4.8.0",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^11.18.1",
+        "react-number-format": "^5.1.2",
+        "react-paginate": "^8.1.3",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "react-select": "^5.4.0",
+        "react-signature-canvas": "^1.0.6",
+        "react-toastify": "^9.0.7",
+        "tailwind-react-datepicker": "^1.1.8",
+        "tailwindcss": "^3.1.8",
+        "typescript": "^4.7.4",
+        "uuid": "^8.3.2",
+        "web-vitals": "^2.1.4",
+        "yup": "^0.32.11",
+        "zustand": "^4.1.5"
+    },
+    "scripts": {
+        "dev": "react-scripts start",
+        "start": "node ./server/index.js",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "prettier": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^7.4.0"
+    }
+}

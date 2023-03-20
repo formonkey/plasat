@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker__input-time-container .react-datepicker-time__caption {
+    @apply hidden;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input {
+    @apply w-full m-0
+}
+
+.react-datepicker__input-time-container {
+    @apply flex items-center justify-center w-full mx-0
+}
+
+.react-datepicker__header {
+    @apply bg-gray-lighter
+}
+
+.react-datepicker__day--selected {
+    @apply bg-primary text-white
+}
+
+.fc .fc-timegrid-slot-label-cushion, .fc .fc-timegrid-axis-cushion {
+    @apply text-gray-dark text-sm
+}
+
+.fc-day-today, .fc .fc-daygrid-day.fc-day-today {
+    @apply bg-gray-lighter
+}
+
+#date-range-picker {
+    display: none;
+}
+#date-range-picker-wrapper {
+    height: 0;
+}
+#date-range-picker-wrapper > .react-datepicker-wrapper {
+    height: 0;
+    line-height: 0;
+    background-color: red;
+}
+
+.highcharts-credits {
+    display: none !important;
+}
+
+.react-datepicker {
+    display: flex;
+}
